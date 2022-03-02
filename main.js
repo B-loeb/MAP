@@ -15,7 +15,8 @@ const myMap = {
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution:
 			'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-		minZoom: '13',
+		minZoom: '9',
+
 		}).addTo(this.map)
         //User marker//
 		const userMarker = L.marker(this.coordinates)
